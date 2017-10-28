@@ -1,0 +1,13 @@
+<script>
+function upSize(str) {
+  var temp = [];
+  arr = str.toLowerCase().split(' ');
+  for (var i =0;i<arr.length;i++){
+    temp[i] = arr[i].charAt(0).toUpperCase() + arr[i].substr(1);
+    
+  }
+  console.log(temp.join(' '));
+}
+
+upSize("I'm a little tea pot");
+</script>
