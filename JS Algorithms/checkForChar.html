@@ -1,0 +1,15 @@
+<script>
+function checkForChars(arr) {
+  var myArr= arr[1].toLowerCase(); 
+
+  for(var i=0;i<arr[1].length;i++){
+    if(arr[0].toLowerCase().indexOf(myArr[i]) === -1){
+      console.log(false);
+    }
+  }
+   console.log(true);
+  
+}
+
+checkForChars(["Mary", "Army"]);
+</script>
