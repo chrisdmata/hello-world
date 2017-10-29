@@ -1,0 +1,89 @@
+body{
+	color:#666;
+	background-color: #424242;
+	font-family: Helvetica,Arial,sans-serif;
+	font-size:20px;
+}
+
+#jumbo{
+	background:#c6f0ff; 
+	padding-right: 0px; 
+	padding-left: 0px; 
+	margin-bottom: -7px;
+}
+
+#intro{
+	width:80%; 
+	text-align:center; 
+	margin-top:60px;
+}
+
+#about{
+	padding-top: 115px; 
+	margin-top:-115px;
+}
+
+#jumbo2{
+	background-color:#afafaf; 
+	color: white;  
+	margin-bottom: 0px; 
+	padding-bottom: 0px; 
+	border-radius: 0px;
+}
+
+#jumbo3{
+	background-color:#F8F8F8; 
+	color:#555555;  
+	margin-bottom: 0px; 
+	padding-bottom: 0px; 
+	border-radius: 0px;
+}
+
+li{
+	display: inline;
+}
+
+ul{
+	list-style:none;
+	padding:0px;
+	text-align: center;
+}
+
+form{
+	width:80%; 
+	margin: 0 auto; 
+	margin-bottom: 10px;
+}
+
+.thumbnail{
+	width:450px; 
+	background-color: #afafaf;
+	border:0;
+}
+
+#personal-image{
+	border-radius: 50%; 
+	width=200px; 
+	display:block; 
+	margin-top:30px; 
+	margin-bottom: 25px;
+}
+
+#special-hr{
+	width:100%; 
+	height:10px; 
+	border:0px; 
+	box-shadow: 0 5px 5px -5px black inset;
+}
+
+#special-hr2{
+	width:80%; 
+	height:10px; 
+	border:0px; 
+	box-shadow: 0 5px 5px -5px black inset;
+}
+
+#contact-p{
+	width: 80%;
+	margin: auto;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>My Site</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/d4a74977d1.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+		<div class="navbar-header">
+			<!--Logo-->
+			<a class="navbar-brand" href="#">Chris Mata</a>
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarID">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+
+		<!--Menu Items-->
+		<div class="collapse navbar-collapse" id="navbarID">
+			<ul class="nav navbar-nav">
+				<li class="nav-item active"><a class="nav-link" href="mysite.html#top">About</a></li>
+				<li class="nav-item"><a class="nav-link" href="mysite.html#portfolio">Portfolio</a></li>
+				<li class="nav-item"><a class="nav-link" href="mysite.html#contact">Contact</a></li>
+			</ul>
+		   </div>
+		</div>
+	</nav>
+
+		<div class="container">
+			<!--anchor used to click to top of page-->
+			<a id="top"></a>
+			<!--jumbo contains the About Me section-->
+			<div class="jumbotron" id="jumbo">
+				<div class="row" id="About2">
+					<div class="col-md-8 col-lg-8">
+						<p class="center-block" id="intro">Recent graduate with practical experience in project management, computer networking, and front-end development. These are my stories. Devoted to continual learning in all things computer-related.</p>
+						<hr style="width:70%; border-color:#888">
+						<p class="text-center" style="font-size: 120%;">Engineer. Athlete. Computer Technician.</p>
+					</div> 
+
+					<div class="col-md-4 col-lg-4">
+						<img class="img-responsive center-block" id="personal-image" src="chris.jpg" alt="image of Chris">
+					</div>
+				</div>
+			</div>
+			<!--jumbo2 contains the portfolio and the contact form -->
+			<div class="jumbotron" id="jumbo2">
+				<h2 class="text-center"><a id="portfolio" style="padding-top: 75px; margin-top:-75px;">Portfolio</a></h2>
+				<hr style="width:75%; border-color: white;">
+				<div class="row" style="margin-bottom: 20px;">
+					<div class="col-md-6 col-lg-6">
+						<div class="thumbnail img-responsive center-block">
+							<img src="senior project.jpg" alt="project visual" style="max-width:100%;border-radius: 10px;">
+							<div class="caption"><p style="color:white;">The design for a pressure-sensitive authentication system, where the resistors (the dark circles) would be placed under a touchscreen to read in pressure values.</p></div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-6">
+						<div class="thumbnail img-responsive center-block">
+							<img src="database.JPG" alt="visual realized" style="max-width:100%;border-radius: 10px;">
+							<div class="caption"><p style="color:white;">The database implentation. Pressure values, time values, and the actual password are shown here. The users in the database can be seen in the back window.</p></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-6">
+						<div class="thumbnail img-responsive center-block">
+							<img src="IMG_9675.JPG" alt="funnypic1" style="max-width:100%; border-radius: 10px;">
+							<div class="caption"><p style="color:white;">The touchscreen display, placed atop the force-sensitive resistors. The arduino reads time and pressure values, and sends them to the database in the raspberry pi.</p></div>
+						</div>
+					</div>
+					<div class="col-md-6 col-lg-6">
+						<div class="thumbnail img-responsive center-block">
+							<img src="IMG_9786.PNG" alt="project backend" style="max-width:100%;border-radius: 10px;">
+							<div class="caption"><p style="color:white;">The resistors themselves. The arduino is coded in C to read in values when they are greater than 0 (when any force is placed on them) and communicate with the Raspberry Pi.</p></div>
+						</div>
+					</div>
+				</div>
+
+				<hr id="special-hr">
+				<h2 class="text-center"><a id="contact" style="padding-top: 75px; margin-top:-75px;">Contact Me</a></h2>
+				<hr id="special-hr2">
+
+				<div class="row">
+					<div class="col-md-6 col-lg-6" style="margin-bottom: 40px;">
+						<form>
+							<div class="form-group">
+								<input type="name" class="form-control" placeholder="Name">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" placeholder="Email">
+							</div>
+							<div class="form-group">
+								<input type="phone number" class="form-control" placeholder="Phone Number">
+							</div>
+							<div class="form-group">
+								<textarea class="form-control" rows="4" placeholder="Message"></textarea>
+							</div>
+							<button type="submit" class="btn btn-default">Submit</button>
+						</form>
+					</div>
+
+					<div class="col-md-6 col-lg-6" style="margin-bottom: 50px;">
+						<p id="contact-p">Want to get in touch with me? If you'd like to request more info about myself or my experience, ask for my resume, or need advice on anything tech/fitness related, feel free to contact me anytime. I check my email daily. Have a good one! 
+
+						Note: Please don't spam my poor email :')</p>
+					</div>
+				</div>
+			</div>	
+
+			<div class="jumbotron" id="jumbo3">
+				<div class="row">
+					<div class="col-sm-6 col-md-6 col-lg-6" style="margin-bottom: 40px;">
+						<h4 class="text-center">ABOUT THIS PAGE</h4>
+						<p style="width:50%; margin: auto;">Made with Bootstrap by Chris Mata</p>
+					</div>
+					<div class="col-sm-6 col-md-6 col-lg-6">
+						<h4 class="text-center">AROUND THE WEB</h4>
+						<ul>
+							<li><a href="https://www.linkedin.com/in/christopher-mata-5295aa121/" target="_blank"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.facebook.com/chris.mata.549" target="_blank"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a></li>
+							<li><a href="https://github.com/chrisdmata" target="_blank"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+							<li><a href="https://www.instagram.com/gatooboladoor/" target="_blank"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+</body>
+</html>
