@@ -1,0 +1,43 @@
+body {
+	background: #fcf2db;
+	font-family: arial;
+}
+
+h1 {
+	font-family: Lobster, Arial
+}
+
+a {
+	background: #666;
+	color: white;
+}
+
+.secondary {
+	background: none;
+	color: #515;
+}
+
+.picture-layout{
+	width: 300px;
+	border-color: red;
+	border-width: 5px;
+	border-style: solid;
+}
+
+.rounded-edges{
+	width: 300px;
+	border-color: violet;
+	border-radius: 10px;
+}
+
+.round-image{
+	width: 300px;
+	border-width: 10px;
+	border-color: maroon;
+	border-style: solid;
+	border-radius: 50%;
+}
+
+#list-id{
+	background-color: blue;
+}

@@ -1,0 +1,58 @@
+body {
+	background-color: white;
+}
+
+h1 {
+	margin-bottom:-20px;
+	text-decoration: underline;
+	color: #ce4242;
+}
+
+h4 {
+	color: #ce4242;
+}
+
+.banner {
+	margin: 0 auto;
+	margin-top:-250px;
+	display: block;
+
+}
+
+.text-padding {
+	line-height: 140%;
+}
+
+.book-image {
+	height: 300px;
+	width: 200px;
+}
+
+.border {
+	border-color: #ce4242;
+	border-width: 10px;
+	border-style: solid;
+	border-radius: 10px;
+}
+
+.box {
+	height: 250px;
+	width: 700px;
+	border-color: #ce4242;
+	border-width:5px;
+	border-style:solid;
+	margin: 5px 5px 5px 5px;
+}
+
+.char-image {
+	float:left;
+	height: 250px;
+	width: 200px;
+	margin-right: 30px;
+}
+
+#maincontent {
+	font-family: monospace;
+	width: 260px;
+	background-color:lightblue;
+}
